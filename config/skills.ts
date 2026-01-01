@@ -4,16 +4,65 @@ export interface skillsInterface {
   name: string;
   description: string;
   rating: number;
-  icon: any;
+  icon: any | null;
 }
 
 export const skillsUnsorted: skillsInterface[] = [
   {
-    name: "Next.js",
+    name: "C++",
     description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+      "Lower-level programming language known for its performance and efficiency, widely used in system/software development and game programming.",
     rating: 5,
-    icon: Icons.nextjs,
+    icon: Icons.cpp,
+  },
+  {
+    name: "C",
+    description:
+      "Lower-level programming language that provides low-level access to memory and is widely used in system programming and embedded systems.",
+    rating: 5,
+    icon: Icons.c,
+  },
+  {
+    name: "Java",
+    description:
+      "Versatile, object-oriented programming language used for building cross-platform applications, from mobile apps to enterprise software.",
+    rating: 5,
+    icon: Icons.java,
+  },
+  {
+    name: "OpenGL",
+    description:
+      "Powerful graphics API for rendering 2D and 3D graphics in applications such as games and simulations.",
+    rating: 5,
+    icon: Icons.opengl,
+  },
+  {
+    name: "DirectX",
+    description:
+      "Collection of APIs for handling multimedia tasks, especially game programming and video, on Microsoft platforms.",
+    rating: 5,
+    icon: Icons.directx,
+  },
+  {
+    name: "Unity",
+    description:
+      "Comprehensive game development platform for creating 2D, 3D, AR, and VR experiences across multiple platforms.",
+    rating: 5,
+    icon: Icons.unity,
+  },
+  {
+    name: "PHP",
+    description:
+      "Server-side scripting language designed for web development but also used as a general-purpose programming language.",
+    rating: 5,
+    icon: Icons.php,
+  },
+  {
+    name: "Laravel",
+    description:
+      "PHP framework for web artisans, providing elegant syntax and tools for building robust web applications.",
+    rating: 5,
+    icon: Icons.laravel,
   },
   {
     name: "React",
@@ -23,27 +72,6 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.react,
   },
   {
-    name: "GraphQL",
-    description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
-    icon: Icons.graphql,
-  },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
-  },
-  {
     name: "Node.js",
     description:
       "Run JavaScript on the server side, enabling dynamic and responsive applications.",
@@ -51,17 +79,10 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.nodejs,
   },
   {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
-  },
-  {
     name: "Typescript",
     description:
       "Enhance JavaScript with static types, making code more understandable and reliable.",
-    rating: 5,
+    rating: 3,
     icon: Icons.typescript,
   },
   {
@@ -75,7 +96,7 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "HTML 5",
     description:
       "Structure web content beautifully with the latest version of HyperText Markup Language.",
-    rating: 4,
+    rating: 5,
     icon: Icons.html5,
   },
   {
@@ -86,46 +107,17 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.css3,
   },
   {
-    name: "React Native",
-    description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
-    rating: 4,
-    icon: Icons.react,
-  },
-  {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
-    name: "Redux",
-    description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
-  },
-  {
     name: "Socket.io",
     description:
       "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
+    rating: 2,
     icon: Icons.socketio,
   },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-
   {
     name: "Tailwind CSS",
     description:
       "Design beautiful, modern websites faster with a utility-first CSS framework.",
-    rating: 5,
+    rating: 4,
     icon: Icons.tailwindcss,
   },
   {
@@ -146,14 +138,14 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "MySQL",
     description:
       "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
+    rating: 4,
     icon: Icons.mysql,
   },
   {
     name: "Netlify",
     description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 4,
+      "Manage modern web projects with an all-in-one platform for deployment and hosting.",
+    rating: 3,
     icon: Icons.netlify,
   },
 ];

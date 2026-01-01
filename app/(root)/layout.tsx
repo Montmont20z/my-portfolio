@@ -20,7 +20,7 @@ export default function MarketingLayout({ children }: MarketingLayoutProps) {
                             className={cn(
                                 buttonVariants({
                                     variant: "ghost",
-                                    size: "sm",
+                                    size: "sm", 
                                 }),
                                 "h-8 w-8 px-0"
                             )}
@@ -36,3 +36,4 @@ export default function MarketingLayout({ children }: MarketingLayoutProps) {
     </div>
   );
 }
+  
