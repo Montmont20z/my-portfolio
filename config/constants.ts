@@ -60,6 +60,13 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
+  | "DirectX"
+  | "OpenGL"
+  | "Win32"
+  | "C++"
+  | "C"
+  | "C#"
+  | "Unity"
   | "Framer Motion";
 
 export type ValidCategory =
@@ -69,6 +76,11 @@ export type ValidCategory =
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
+  | "Game Engine"
+  | "Game Development"
+  | "Game Design"
+  | "3D Graphics"
+  | "3D Game Development"
   | "3D Modeling";
 
 export type ValidExpType = "Personal" | "Professional";
