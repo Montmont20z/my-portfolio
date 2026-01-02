@@ -96,16 +96,23 @@ export default function IndexPage() {
             delay={0.4}
             className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl"
           >
-            Developer
+            Game & Full Stack Developer
           </AnimatedText>
           <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              Open-source Next.js portfolio template. Fork this on GitHub to
-              create your own developer portfolio.
+                Building interactive experiences from low level game engines to modern web applications.
             </p>
           </div>
 
-          <div className="flex flex-col mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
+
+          <div className="flex flex-col mt-10" >
+            <AnimatedText delay={0.2} className="flex justify-center mb-2">
+             <p className="leading-normal text-white text-muted-foreground text-sm sm:text-base">
+              View Projects
+            </p>           
+            </AnimatedText>
+          <div className="flex flex-col mt-2 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
+
             <AnimatedText delay={0.6}>
               <Link
                 href={"https://github.com/Montmont20z"}
@@ -132,14 +139,40 @@ export default function IndexPage() {
               </Link>
             </AnimatedText>
           </div>
+        </div>
           <AnimatedText delay={1.2}>
             <Icons.chevronDown className="h-6 w-6 mt-10" />
           </AnimatedText>
         </div>
       </section>
+      <section className="space-y-6 pb-28 mb-80 md:pb-12 flex items-center">
+      <AnimatedSection
+        // className="container space-y-6 bg-muted py-10"
+        className="container space-y-6 my-14"
+        id="value-prop"
+        delay={0.3}
+      >
+        <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+          <AnimatedText
+            as="h2"
+            className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl"
+          >
+            About
+          </AnimatedText>
+          <AnimatedText
+            as="p"
+            delay={0.2}
+            className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7"
+          >
+            I combine low-level game engine expertise with modern full-stack development to build high-performance, interactive applications. From custom C++ engines to React web apps, I bring a deep understanding of systems programming and optimization to every project I create.
+          </AnimatedText>
+        </div>
+      </AnimatedSection>
+      </section>
       <AnimatedSection
         className="container space-y-6 bg-muted py-10"
         id="skills"
+        delay={0.4}
       >
         <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
           <AnimatedText

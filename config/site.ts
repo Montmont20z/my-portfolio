@@ -4,12 +4,12 @@ export const siteConfig = {
   username: "Montmont20z",
   description:
     "Melvin Cheah's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
-  url: "https://nbarkiya.xyz",
+  url: "https://montmont20z.netlify.app",
   links: {
     twitter: "https://x.com/",
     github: "https://github.com/Montmont20z",
   },
-  ogImage: "https://nbarkiya.xyz/profile-img.jpg",
+  ogImage: "https://montmont20z.netlify.app/profile-img.png",
   iconIco:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
   logoIcon:
