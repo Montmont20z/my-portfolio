@@ -67,6 +67,13 @@ export type ValidSkills =
   | "C"
   | "C#"
   | "Unity"
+  | "WordPress"
+  | "Unit / Integration / E2E testing"
+  | "API Design & Integration"
+  // Soft skills / tools
+  | "Documentation"
+  | "Onboarding"
+  | "Remote Collaboration"
   | "Framer Motion";
 
 export type ValidCategory =

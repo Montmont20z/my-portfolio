@@ -6,7 +6,7 @@ export const siteConfig = {
     "Melvin Cheah's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
   url: "https://nbarkiya.xyz",
   links: {
-    twitter: "https://x.com/namanbarkiya",
+    twitter: "https://x.com/",
     github: "https://github.com/Montmont20z",
   },
   ogImage: "https://nbarkiya.xyz/profile-img.jpg",

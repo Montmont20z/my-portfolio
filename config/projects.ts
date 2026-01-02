@@ -146,7 +146,7 @@ export const Projects: ProjectInterface[] = [
     id: "splash-ground",
     companyName: "Splash Ground",
     type: "Personal",
-    category: ["Game Development", "Game Engine", "3D Modeling"],
+    category: ["Game Development", "Game Engine"],
     shortDescription:
       "A fast-paced 3D arena survival shooter where players must keep the arena floor clean by spraying it while waves of monsters contaminate the ground. Survive by maintaining at least 80% healthy ground until the timer expires.",
     websiteLink: "https://github.com/Montmont20z/Splash-Ground/releases/tag/Release",
@@ -189,6 +189,53 @@ export const Projects: ProjectInterface[] = [
         "Designed player movement, shooting, and spraying mechanics",
         "Collaborated with a team of 3 contributors for art and game design",
         "Published playable release build on GitHub",
+      ],
+    },
+  },
+  {
+    id: "robot-model-renderer",
+    companyName: "3D Robot Model Renderer",
+    type: "Personal",
+    category: ["Game Engine", "3D Modeling", "3D Graphics"],
+    shortDescription:
+          "A C++ OpenGL fixed-function pipeline renderer for loading and displaying a 3D robot model with legacy lighting, transformations, and camera controls.",
+    websiteLink: "https://github.com/Montmont20z/3D-Robot-Model-Renderer/releases/tag/Release",
+    githubLink: "https://github.com/Montmont20z/3D-Robot-Model-Renderer",
+    techStack: ["C++", "OpenGL", "Win32"],
+    startDate: new Date("2025-11-01"),
+    endDate: new Date("2025-12-20"),
+    companyLogoImg: "/projects/robot-renderer/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Renderer Demo",
+        description:
+          "Demonstration of a 3D robot model rendered using the OpenGL fixed-function pipeline with immediate mode rendering and built-in lighting.",
+        imgArr: ["/projects/robot-renderer/screenshot1.png", "/projects/robot-renderer/screenshot3.png", "/projects/robot-renderer/screenshot4.png"],
+      },
+      {
+        title: "Model Import & Controls",
+        description:
+          "3D Model combined with matrix-stack transformations, gluLookAt camera setup, and keyboard/mouse interaction.",
+        imgArr: ["/projects/robot-renderer/screenshot2.png"],
+      },
+      {
+        title: "Download / Source",
+        description: "Release builds and source available on GitHub.",
+        imgArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+         "3D Robot Model Renderer is a graphics programming project focused on understanding the OpenGL fixed-function pipeline and traditional rendering workflows.",
+      "The project renders a detailed robot model using legacy OpenGL techniques such as immediate mode drawing, matrix stacks, and built-in lighting and material systems.",
+      "It serves as an educational exploration of how classic OpenGL applications were structured prior to the introduction of programmable shaders, providing strong foundational knowledge for modern graphics APIs.",
+      ],
+      bullets: [
+        "OpenGL fixed-function pipeline (no programmable shaders)",
+        "Immediate mode rendering (glBegin / glEnd)",
+        "Built-in lighting, materials, and transformation matrices",
+        "Texture mapping and model loading",
+        "Camera control using gluLookAt and matrix stack operations",
       ],
     },
   },
