@@ -71,7 +71,7 @@ export default async function ExperienceDetailPage({
       value: "summary",
       label: "Summary",
       content: (
-        <AnimatedSection delay={0.3}>
+        <AnimatedSection delay={0.1}>
           <div>
             <h3 className="font-semibold mb-4 text-sm uppercase tracking-wide text-muted-foreground">
               Role Summary
@@ -95,7 +95,7 @@ export default async function ExperienceDetailPage({
       value: "achievements",
       label: "Achievements",
       content: (
-        <AnimatedSection delay={0.3}>
+        <AnimatedSection delay={0.1}>
           <div>
             <h3 className="font-semibold mb-4 text-sm uppercase tracking-wide text-muted-foreground">
               Key Achievements
@@ -119,7 +119,7 @@ export default async function ExperienceDetailPage({
       value: "skills",
       label: "Skills",
       content: (
-        <AnimatedSection delay={0.3}>
+        <AnimatedSection delay={0.1}>
           <div>
             <h3 className="font-semibold mb-4 text-sm uppercase tracking-wide text-muted-foreground">
               Technologies & Skills
